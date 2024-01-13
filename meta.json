@@ -1,0 +1,29 @@
+{
+  "id": "modern-react-typescript",
+  "args": [
+    {
+      "key": "project_name",
+      "q_type": "Text",
+      "label": "Project name"
+    },
+    {
+      "key": "project_description",
+      "q_type": "Text",
+      "label": "Description"
+    }
+  ],
+  "dynamic_files": ["package.json", "README.md", "src/pages/home/Home.tsx"],
+  "exclude": ["yarn.lock", "node_modules"],
+  "additional_operations": [
+    {
+      "operations": [
+        {
+          "Copy": {
+            "file": ".proplate_aux_utils/README.md",
+            "dest": "README.md"
+          }
+        }
+      ]
+    }
+  ]
+}

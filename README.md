@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# 🧪 Modern React typescript project starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠 Usage
 
-Currently, two official plugins are available:
+Prerequisite: [Proplate](https://github.com/YumeT023/proplate) `^0.3.0`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Bootstrap project
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```shell
+proplate create --template https://github.com/YumeT023/modern-react-ts-project-starter --dest destination
+cd destination
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Install deps
+
+Use `npm` or `yarn`
+
+```shell
+yarn install
+```
+
+### Start local dev server
+
+```shell
+yarn dev
+```
+
+## 🧨 Features
+
+- Bootstraped with [Vitejs](https://vitejs.dev/)
+- Styling: [tailwindcss](https://tailwindcss.com/) & [shadcn-ui components](https://ui.shadcn.com/)
+- State manager: [zustand](https://zustand-demo.pmnd.rs/)
+- Form: [react-hook-form](https://react-hook-form.com/)
+- Client side routing: [react-router](https://reactrouter.com/)
+- Data validation: [zod](https://zod.dev/)
+- Codestyle: [prettier](https://prettier.io/) & [eslint](https://eslint.org/)
