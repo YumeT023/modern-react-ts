@@ -1,8 +1,12 @@
 # 🧪 Modern React typescript project starter
 
+> /!\ Skip the **environment configuration step**
+
+Your **STARTUP** is needed by the **market** immediately
+
 ## 🛠 Usage
 
-Prerequisite: [Proplate](https://github.com/YumeT023/proplate) `^0.3.0`
+Prerequisite: [Proplate cli](https://github.com/YumeT023/proplate) `^0.3.0`
 
 ### Bootstrap project
 
@@ -33,4 +37,6 @@ yarn dev
 - Form: [react-hook-form](https://react-hook-form.com/)
 - Client side routing: [react-router](https://reactrouter.com/)
 - Data validation: [zod](https://zod.dev/)
-- Codestyle: [prettier](https://prettier.io/) & [eslint](https://eslint.org/)
+- Code quality:
+  - styles: [prettier](https://prettier.io/) & [eslint](https://eslint.org/)
+  - testing: [cypress](https://cypress.io)

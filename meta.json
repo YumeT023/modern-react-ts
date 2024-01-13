@@ -12,7 +12,7 @@
       "label": "Description"
     }
   ],
-  "dynamic_files": ["package.json", "README.md", "src/pages/home/Home.tsx"],
+  "dynamic_files": ["package.json", "README.md", "src/pages/home/Home.tsx", "cypress/e2e/proplate.cy.ts"],
   "exclude": ["yarn.lock", "node_modules"],
   "additional_operations": [
     {
