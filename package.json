@@ -10,7 +10,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "gen-cmp": "shadcn-ui add"
+    "gen-cmp": "shadcn-ui add",
+    "test:e2e": "cypress run --spec \"cypress/e2e/**/*\"",
+    "test:unit": "cypress run --component",
+    "test:open": "cypress open"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
