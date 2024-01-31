@@ -10,6 +10,12 @@
       "key": "project_description",
       "q_type": "Text",
       "label": "Description"
+    },
+    {
+      "key": "ui_framework",
+      "q_type": "Select",
+      "label": "Select your ui framework",
+      "options": ["MUI 5", "Tailwindcss", "None"]
     }
   ],
   "dynamic_files": [
@@ -21,6 +27,40 @@
   ],
   "exclude": ["yarn.lock", "node_modules"],
   "additional_operations": [
+    {
+      "conditions": [
+        {
+          "lhs": "$ui_framework",
+          "op": "Eq",
+          "rhs": "Tailwindcss"
+        }
+      ],
+      "operations": [
+        {
+          "CopyDir": {
+            "path": ".proplate_aux_utils/tailwindcss",
+            "dest": "."
+          }
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "lhs": "$ui_framework",
+          "op": "Eq",
+          "rhs": "MUI 5"
+        }
+      ],
+      "operations": [
+        {
+          "CopyDir": {
+            "path": ".proplate_aux_utils/mui",
+            "dest": "."
+          }
+        }
+      ]
+    },
     {
       "operations": [
         {
