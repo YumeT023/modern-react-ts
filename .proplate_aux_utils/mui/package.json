@@ -10,13 +10,16 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "gen-cmp": "shadcn-ui add",
     "test:e2e": "cypress run --spec \"cypress/e2e/**/*\"",
     "test:unit": "cypress run --component",
     "test:open": "cypress open"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
