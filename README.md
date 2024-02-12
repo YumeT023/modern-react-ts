@@ -37,6 +37,7 @@ yarn dev
 - Form: [react-hook-form](https://react-hook-form.com/)
 - Client side routing: [react-router](https://reactrouter.com/)
 - Data validation: [zod](https://zod.dev/)
+- Asynchronous state management: [react-query](https://tanstack.com/query/latest)
 - Code quality:
   - styles: [prettier](https://prettier.io/) & [eslint](https://eslint.org/)
   - testing: [cypress](https://cypress.io)
