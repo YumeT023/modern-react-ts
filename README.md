@@ -32,7 +32,7 @@ yarn dev
 ## 🧨 Features
 
 - Bootstraped with [Vitejs](https://vitejs.dev/)
-- Styling: [tailwindcss](https://tailwindcss.com/) & [shadcn-ui components](https://ui.shadcn.com/)
+- Styling: [tailwindcss](https://tailwindcss.com/) + [shadcn-ui components](https://ui.shadcn.com/) or [MUIv5](https://mui.com)
 - State manager: [zustand](https://zustand-demo.pmnd.rs/)
 - Form: [react-hook-form](https://react-hook-form.com/)
 - Client side routing: [react-router](https://reactrouter.com/)
